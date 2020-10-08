@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kashen Wright - Final - Web 1.0
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="column">
+            <section id="student-info" class="box">
+                <h1>Kashen Wright</h1>
+                <p>
+                    My Favorite color is Red and I wear <br> My favorite shoe which is Vans
+                </p>
+            </section>
+
+            <section id="data-input" class="box">
+                <h1>Font styler</h1>
+                <form>
+                    <label>Font Size</label>
+                    <input id="input-size" type="number" value="40" min="16"><br>
+                    <label>Font Family</label>
+                    <select id="select-font">
+						<option value="Helvetic" selected>Helvetic</option>
+						<option value="Arial">Arial</option>
+						<option value="Times New Roman">Times New Roman</option>
+						<option value="Georgia">Georgia</option>
+					</select>
+                    <label>Font Color</label>
+                    <input id="input-color" type="color" value="#000000"><br>
+                    <label>Background color</label>
+                    <input id="input-bg-color" type="color" value="#ffffff"><br>
+                    <label>Enter Text</label>
+                    <textarea id="enter-text"></textarea>
+                </form>
+            </section>
+        </div>
+        <div class="column">
+
+            <section id="headline-display" class="box">
+                <h1></h1>
+            </section>
+
+            <section id="data-output" class="box">
+                <h1>Font setting</h1>
+                <pre><code>
+	.headline {
+
+	font-size: <span id="show-size">4</span>px;
+	font-family: <span id="show-font">Arial</span>;
+	color: <span id="show-color">#000</span>;
+	background-color: <span id="show-bg-color">#fff</span>;
+	}
+		</code></pre>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
